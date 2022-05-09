@@ -6,7 +6,7 @@ This repository contains the setup instructions and the scripts to be able to la
 - (WSL2) sudo apt-get update
 - (WSL2) sudo apt-get install openjdk-11-jdk
 - (WSL2) mkdir -p ~/Android/Sdk/tools
-- (Windows) Go to (Command line tools only)[https://developer.android.com/studio#downloads] and download de linux option and unzip it
+- (Windows) Go to [Command line tools only](https://developer.android.com/studio#downloads) and download de linux option and unzip it
 - (WSL2) Copy the content of the unziped folder to ~/Android/Sdk/tools (e.g. `cp -r /mnt/c/Users/User/Downloads/cmdline-tools/. /home/angel/Android/Sdk/tools/`)
 - (WSL2) `export ANDROID_HOME=/home/angel/Android/Sdk`
 - (WSL2) `export PATH=${PATH}:${ANDROID_HOME}/platform-tools`
